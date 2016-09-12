@@ -27,3 +27,6 @@ github_username:  b0gok
 # Build settings
 markdown: kramdown
 theme: minima
+disqus:
+    shortname: b0gok
+google_analytics: UA-84075502-1
