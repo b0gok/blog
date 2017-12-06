@@ -16,7 +16,8 @@
     "react": "~16.2.0",
     "react-dom": "~16.2.0",
     "react-helmet": "^5.2.0",
-    "react-icons": "~2.2.5"
+    "react-icons": "~2.2.5",
+    "snyk": "^1.53.0"
   },
   "devDependencies": {
     "gh-pages": "~1.1.0",
@@ -36,6 +37,9 @@
     "serve": "gatsby serve",
     "start": "npm run develop",
     "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Should probably write some tests!\""
-  }
+    "test": "echo \"Should probably write some tests!\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
