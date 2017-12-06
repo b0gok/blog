@@ -1,3 +1,4 @@
 # My own blog
 
-[![Build Status](https://travis-ci.org/b0gok/b0gok.github.io.svg?branch=master)](https://travis-ci.org/b0gok/b0gok.github.io) [![Greenkeeper badge](https://badges.greenkeeper.io/b0gok/b0gok.github.io.svg)](https://greenkeeper.io/)
+[![Build Status](https://api.travis-ci.org/b0gok/blog.svg?branch=master)](https://travis-ci.org/b0gok/blog) [![Greenkeeper badge](https://badges.greenkeeper.io/b0gok/blog.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/b0gok/blog/badge.svg)](https://snyk.io/test/github/b0gok/blog)
