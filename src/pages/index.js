@@ -3,6 +3,7 @@ import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
+import Tags from '../components/Tags';
 
 import '../css/index.css';
 
@@ -26,6 +27,7 @@ export default function Index({ data }) {
               <p>
                 {post.excerpt}
               </p>
+              <Tags list={post.frontmatter.tags || []} />
               <Link to={post.frontmatter.path}>Read more</Link>
             </div>
           );
@@ -45,6 +47,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             path
+            tags
           }
         }
       }

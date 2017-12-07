@@ -1,18 +1,17 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import TagIcon from 'react-icons/lib/fa/tag';
 
 import '../css/tags.css';
 
 export default function Tags({ list = [] }) {
   return (
-    <ul className="tag-list">
+    <div className="tag-list">
       {list.map(tag =>
-        <li key={tag}>
-          <Link to={`/tags/${tag}`}>
-            {tag}
-          </Link>
-        </li>
+        <Link to={`/tags/${tag}`}>
+          <TagIcon/>{tag}
+        </Link>
       )}
-    </ul>
+    </div>
   );
 }

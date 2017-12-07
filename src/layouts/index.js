@@ -18,7 +18,7 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet
-          title="Gatsby Default (Blog) Starter"
+          title="Vladimir Kattsov blog"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -26,7 +26,7 @@ export default class Template extends React.Component {
         />
         <div
           style={{
-            background: `rebeccapurple`,
+            background: `darkslateblue`,
             marginBottom: `1.45rem`,
           }}
         >
@@ -37,7 +37,7 @@ export default class Template extends React.Component {
               padding: isRoot ? `1.45rem 1.0875rem` : `1rem 0.75rem`,
             }}
           >
-            <h1 style={{ margin: 0, fontSize: isRoot ? `2.5rem` : `2rem` }}>
+            <h1 style={{ margin: 0, fontSize: isRoot ? `2rem` : `1.5rem` }}>
               <Link
                 to="/"
                 style={{
@@ -45,7 +45,7 @@ export default class Template extends React.Component {
                   textDecoration: 'none',
                 }}
               >
-                Gatsby Blog
+                Vladimir Kattsov blog
               </Link>
             </h1>
           </div>
