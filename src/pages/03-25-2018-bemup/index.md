@@ -14,7 +14,7 @@ tags: ["bem", "react"]
 * Есть [бойлерплейт (bem-react-boilerplate)](https://github.com/bem/bem-react-boilerplate) проекта с использованием `bem-react-core`
 * [styled-components](https://www.styled-components.com/) — плохо и для БЭМ не нужно. Есть [пример](https://github.com/bem/bem-react-core/tree/master/examples/styled-components) как использовать `bem-react-core` вместе с `styled-components`.
 * [Стиль именования классов для React](https://ru.bem.info/methodology/naming-convention/#%D0%A1%D1%82%D0%B8%D0%BB%D1%8C-react)
-* Все инструменты для работы с БЭМ можно посмотреть в репозитории (bem-sdk)[https://github.com/bem/bem-sdk]
+* Все инструменты для работы с БЭМ можно посмотреть в репозитории [bem-sdk](https://github.com/bem/bem-sdk)
 
 ## Дополнительно
 
