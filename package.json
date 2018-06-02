@@ -20,7 +20,7 @@
     "snyk": "^1.70.3"
   },
   "devDependencies": {
-    "gh-pages": "~1.1.0",
+    "gh-pages": "~1.2.0",
     "prettier": "~1.11.1"
   },
   "keywords": [
