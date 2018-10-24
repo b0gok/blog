@@ -38,3 +38,16 @@ patch:
   'npm:lodash:20180130':
     - gatsby > webpack-configurator > lodash:
         patched: '2018-07-04T21:30:23.075Z'
+  'npm:tunnel-agent:20170305':
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
+    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T22:35:04.818Z'
