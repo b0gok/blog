@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Vladimir Kattsov <kattsoff@gmail.com>",
   "dependencies": {
-    "gatsby": "~1.9.241",
+    "gatsby": "~2.0.0",
     "gatsby-link": "~1.6.39",
     "gatsby-plugin-catch-links": "~1.0.19",
     "gatsby-plugin-react-helmet": "~2.0.8",
