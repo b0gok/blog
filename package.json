@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Vladimir Kattsov <kattsoff@gmail.com>",
   "dependencies": {
-    "gatsby": "~1.9.241",
+    "gatsby": "~1.9.275",
     "gatsby-link": "~1.6.39",
     "gatsby-plugin-catch-links": "~1.0.19",
     "gatsby-plugin-react-helmet": "~2.0.8",
@@ -14,10 +14,10 @@
     "gatsby-source-filesystem": "~1.5.27",
     "gatsby-transformer-remark": "~1.7.37",
     "react": "~16.2.0",
-    "react-dom": "~16.2.0",
+    "react-dom": "~16.2.1",
     "react-helmet": "^5.2.0",
     "react-icons": "~2.2.7",
-    "snyk": "^1.88.1"
+    "snyk": "^1.117.1"
   },
   "devDependencies": {
     "gh-pages": "~1.1.0",
@@ -39,7 +39,7 @@
     "format": "prettier --trailing-comma es5 --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Should probably write some tests!\"",
     "snyk-protect": "snyk protect",
-    "prepublish": "yarn snyk-protect",
+    "prepublish": "npm run snyk-protect; yarn snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "snyk": true
