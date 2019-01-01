@@ -1,4 +1,7 @@
+const { name } = require('./package.json');
+
 module.exports = {
+  pathPrefix: process.env.CI ? `/${name}` : `/`,
   siteMetadata: {
     title: `Vladimir Kattsov — Blog`,
     author: `Vladimir Kattsov`,
