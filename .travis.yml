@@ -12,7 +12,7 @@ script:
   - yarn test
 after_script: greenkeeper-lockfile-upload
 
-before_deploy: yarn build -- --prefix-paths
+before_deploy: yarn build --prefix-paths
 deploy:
   provider: pages
   skip_cleanup: true
