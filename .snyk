@@ -1,40 +1,62 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.3
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  'npm:mime:20170907':
-    - gatsby > url-loader > mime:
+  'npm:braces:20180219':
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > braces:
         reason: None given
-        expires: '2018-01-05T19:02:51.147Z'
-  'npm:shelljs:20140723':
-    - gatsby > webpack-validator > shelljs:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > gatsby-plugin-page-creator > chokidar > anymatch > micromatch > braces:
         reason: None given
-        expires: '2018-01-05T19:02:51.147Z'
-  'npm:tunnel-agent:20170305':
-    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+  'npm:chownr:20180731':
+    - gatsby > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.147Z'
-    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-build > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.147Z'
-    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.147Z'
-    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > gatsby-plugin-page-creator > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.148Z'
-    - gatsby-remark-images > gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.148Z'
-    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > caw > tunnel-agent:
+        expires: '2019-01-31T20:43:55.887Z'
+    - node-pre-gyp > tar > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.148Z'
-  'npm:ws:20171108':
-    - gatsby > remote-redux-devtools > socketcluster-client > ws:
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > terser-webpack-plugin > cacache > chownr:
         reason: None given
-        expires: '2018-01-05T19:02:51.148Z'
-# patches apply the minimum changes required to fix a vulnerability
-patch:
-  'npm:lodash:20180130':
-    - gatsby > webpack-configurator > lodash:
-        patched: '2018-07-04T21:30:23.075Z'
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-plugin-manifest > sharp > tar > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-plugin-sharp > sharp > tar > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-transformer-sharp > sharp > tar > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack > terser-webpack-plugin > cacache > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-plugin-manifest > sharp > prebuild-install > tar-fs > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-plugin-sharp > sharp > prebuild-install > tar-fs > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby-transformer-sharp > sharp > prebuild-install > tar-fs > chownr:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+  'npm:mem:20180117':
+    - gatsby > gatsby-cli > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > relay-compiler > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-01-31T20:43:55.887Z'
+patch: {}
