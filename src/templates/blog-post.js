@@ -1,56 +1,86 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import BackIcon from 'react-icons/lib/fa/chevron-left';
-import ForwardIcon from 'react-icons/lib/fa/chevron-right';
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 
-import Link from '../components/Link';
-import Tags from '../components/Tags';
+import Bio from '../components/Bio'
+import Layout from '../components/Layout'
+import SEO from '../components/seo'
+import { rhythm, scale } from '../utils/typography'
 
-import '../css/blog-post.css';
+class BlogPostTemplate extends React.Component {
+  render() {
+    const post = this.props.data.markdownRemark
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const { previous, next } = this.props.pageContext
 
-export default function Template({ data, pathContext }) {
-  const { markdownRemark: post } = data;
-  const { next, prev } = pathContext;
-  return (
-    <div className="blog-post-container">
-      <Helmet title={`Vladimir Kattsov Blog - ${post.frontmatter.title}`} />
-      <div className="blog-post">
-        <h1 className="title">
-          {post.frontmatter.title}
-        </h1>
-        <h2 className="date">
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <h1>{post.frontmatter.title}</h1>
+        <p
+          style={{
+            ...scale(-1 / 5),
+            display: `block`,
+            marginBottom: rhythm(1),
+            marginTop: rhythm(-1),
+          }}
+        >
           {post.frontmatter.date}
-        </h2>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
+        </p>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
         />
-        <Tags list={post.frontmatter.tags || []} />
-        <div className="navigation">
-          {prev &&
-            <Link className="link prev" to={prev.frontmatter.path}>
-              <BackIcon /> {prev.frontmatter.title}
-            </Link>}
-          {next &&
-            <Link className="link next" to={next.frontmatter.path}>
-              {next.frontmatter.title} <ForwardIcon />
-            </Link>}
-        </div>
-      </div>
-    </div>
-  );
+        <Bio />
+
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+          <li>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+      </Layout>
+    )
+  }
 }
 
+export default BlogPostTemplate
+
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
+      excerpt(pruneLength: 160)
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        tags
         title
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }
-`;
+`

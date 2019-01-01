@@ -1,56 +1,69 @@
-import React from 'react';
-import GatsbyLink from 'gatsby-link';
-import Helmet from 'react-helmet';
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 
-import Link from '../components/Link';
-import Tags from '../components/Tags';
+import Bio from '../components/Bio'
+import Layout from '../components/Layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
 
-import '../css/index.css';
+class BlogIndex extends React.Component {
+  render() {
+    const { data } = this.props
+    const siteTitle = data.site.siteMetadata.title
+    const posts = data.allMarkdownRemark.edges
 
-export default function Index({ data }) {
-  const { edges: posts } = data.allMarkdownRemark;
-  return (
-    <div className="blog-posts">
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title="All posts"
+          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        />
+        <Bio />
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
           return (
-            <div className="blog-post-preview" key={post.id}>
-              <h1 className="title">
-                <GatsbyLink to={post.frontmatter.path}>
-                  {post.frontmatter.title}
-                </GatsbyLink>
-              </h1>
-              <h2 className="date">
-                {post.frontmatter.date}
-              </h2>
-              <p>
-                {post.excerpt}
-              </p>
-              <Tags list={post.frontmatter.tags || []} />
-              <Link to={post.frontmatter.path}>Read more</Link>
+            <div key={node.fields.slug}>
+              <h3
+                style={{
+                  marginBottom: rhythm(1 / 4),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
+              <small>{node.frontmatter.date}</small>
+              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
-          );
+          )
         })}
-    </div>
-  );
+      </Layout>
+    )
+  }
 }
 
+export default BlogIndex
+
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
-          id
+          excerpt
+          fields {
+            slug
+          }
           frontmatter {
-            title
             date(formatString: "MMMM DD, YYYY")
-            path
-            tags
+            title
           }
         }
       }
     }
   }
-`;
+`
