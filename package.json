@@ -26,17 +26,17 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
-    "snyk": "^1.120.0",
+    "snyk": "^1.177.0",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.16.18"
   },
   "devDependencies": {
-    "eslint": "^5.11.1",
-    "eslint-plugin-react": "^7.12.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
     "gh-pages": "^2.0.1",
-    "prettier": "^1.14.2"
+    "prettier": "^1.18.2"
   },
   "homepage": "https://github.com/b0gok/blog#readme",
   "keywords": [
