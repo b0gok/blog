@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vladimir Kattsov — Blog]]></title><description><![CDATA[My blog.]]></description><link>https://b0gok.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Jul 2019 18:55:01 GMT</lastBuildDate><item><title><![CDATA[Митап по БЭМ]]></title><description><![CDATA[В пятницу посетил митап по БЭМ в Яндексе. Что рассказывали? БЭМ — это не CSS классы, это архитектура приложения.  Для поддержки БЭМ в…]]></description><link>https://b0gok.github.io/blog/03-25-2018-bemup/</link><guid isPermaLink="false">https://b0gok.github.io/blog/03-25-2018-bemup/</guid><pubDate>Sun, 25 Mar 2018 13:35:13 GMT</pubDate><content:encoded>&lt;p&gt;В пятницу посетил &lt;a href=&quot;https://ru.bem.info/forum/1492/&quot;&gt;митап по БЭМ&lt;/a&gt; в Яндексе.&lt;/p&gt;
+&lt;h2&gt;Что рассказывали?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;БЭМ — это не CSS классы, это архитектура приложения. &lt;/li&gt;
+&lt;li&gt;Для поддержки БЭМ в проекте на React есть &lt;a href=&quot;https://github.com/bem/bem-react-core&quot;&gt;bem-react-core&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Есть &lt;a href=&quot;https://github.com/bem/bem-react-boilerplate&quot;&gt;бойлерплейт (bem-react-boilerplate)&lt;/a&gt; проекта с использованием &lt;code class=&quot;language-text&quot;&gt;bem-react-core&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.styled-components.com/&quot;&gt;styled-components&lt;/a&gt; — плохо и для БЭМ не нужно. Есть &lt;a href=&quot;https://github.com/bem/bem-react-core/tree/master/examples/styled-components&quot;&gt;пример&lt;/a&gt; как использовать &lt;code class=&quot;language-text&quot;&gt;bem-react-core&lt;/code&gt; вместе с &lt;code class=&quot;language-text&quot;&gt;styled-components&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ru.bem.info/methodology/naming-convention/#%D0%A1%D1%82%D0%B8%D0%BB%D1%8C-react&quot;&gt;Стиль именования классов для React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Все инструменты для работы с БЭМ можно посмотреть в репозитории &lt;a href=&quot;https://github.com/bem/bem-sdk&quot;&gt;bem-sdk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Дополнительно&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ru.bem.info/&quot;&gt;БЭМ инфо&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Спасибо&lt;/h2&gt;
+&lt;p&gt;Спасибо &lt;a href=&quot;https://twitter.com/veged&quot;&gt;Сергею Бережному&lt;/a&gt; за этот митап.&lt;/p&gt;</content:encoded></item></channel></rss>
