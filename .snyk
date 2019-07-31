@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -13,9 +13,15 @@ ignore:
     - gatsby > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+      gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
     - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+      gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
     - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
@@ -56,7 +62,1547 @@ ignore:
     - gatsby > gatsby-cli > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+      gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
     - gatsby > relay-compiler > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-patch: {}
+  SNYK-JS-LODASH-450202:
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.139Z'
+    - gatsby > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > @babel/core > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > css-loader > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > eslint > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack-merge > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > eslint-plugin-import > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > @babel/core > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > babel-eslint > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > eslint > table > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > eslint > inquirer > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-transform-runtime > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-template-literals > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-react > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.142Z'
+    - gatsby > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.143Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.144Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby-plugin-sharp > async > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - snyk > inquirer > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - snyk > snyk-config > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - typography > lodash:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+  SNYK-JS-JSYAML-173999:
+    - gatsby > yaml-loader > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.139Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > babel-preset-gatsby > babel-plugin-macros > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > optimize-css-assets-webpack-plugin > cssnano > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > postcss-loader > postcss-load-config > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > optimize-css-assets-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby-transformer-remark > gray-matter > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+  SNYK-JS-TAR-174125:
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+  SNYK-JS-JSYAML-174129:
+    - gatsby > eslint-plugin-graphql > graphql-config > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > babel-preset-gatsby > babel-plugin-macros > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > optimize-css-assets-webpack-plugin > cssnano > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > postcss-loader > postcss-load-config > cosmiconfig > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > optimize-css-assets-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > yaml-loader > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.145Z'
+    - gatsby-transformer-remark > gray-matter > js-yaml:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+  SNYK-JS-SETVALUE-450213:
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.141Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack > watchpack > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby-source-filesystem > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack-dev-server > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack > watchpack > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.157Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.158Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
+  SNYK-JS-MIXINDEEP-450212:
+    - gatsby > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > readdirp > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > anymatch > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > chokidar > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > anymatch > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > readdirp > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > gatsby-plugin-page-creator > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.146Z'
+    - gatsby > webpack > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.147Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby > webpack > watchpack > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.148Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
+    - gatsby-plugin-sharp > imagemin > globby > fast-glob > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby-source-filesystem > chokidar > readdirp > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > nanomatch > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > braces > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.155Z'
+    - gatsby > @gatsbyjs/relay-compiler > fast-glob > micromatch > extglob > expand-brackets > snapdragon > base > mixin-deep:
+        reason: None given
+        expires: '2019-08-30T18:50:19.156Z'
+  SNYK-JS-LODASHMERGEWITH-174136:
+    - gatsby-transformer-remark > sanitize-html > lodash.mergewith:
+        reason: None given
+        expires: '2019-08-30T18:50:19.150Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - gatsby-remark-responsive-iframe > cheerio > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-template-literals > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby-remark-copy-linked-files > cheerio > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2019-07-31T18:47:17.529Z'
