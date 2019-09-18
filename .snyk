@@ -13,15 +13,9 @@ ignore:
     - gatsby > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.140Z'
     - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.149Z'
     - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
@@ -58,16 +52,22 @@ ignore:
     - gatsby-transformer-sharp > sharp > prebuild-install > tar-fs > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
   'npm:mem:20180117':
     - gatsby > gatsby-cli > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
-        reason: None given
-        expires: '2019-08-30T18:50:19.159Z'
     - gatsby > relay-compiler > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
   SNYK-JS-LODASH-450202:
     - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
         reason: None given
@@ -1606,3 +1606,69 @@ patch:
         patched: '2019-07-31T18:47:17.529Z'
     - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
         patched: '2019-07-31T18:47:17.529Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - typography > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > css-loader > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby-plugin-sharp > async > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint-plugin-import > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > @babel/core > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-09-18T21:34:20.636Z'
