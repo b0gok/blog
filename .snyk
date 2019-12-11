@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -13,15 +13,9 @@ ignore:
     - gatsby > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.140Z'
     - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.149Z'
     - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
@@ -58,16 +52,22 @@ ignore:
     - gatsby-transformer-sharp > sharp > prebuild-install > tar-fs > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
   'npm:mem:20180117':
     - gatsby > gatsby-cli > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
-        reason: None given
-        expires: '2019-08-30T18:50:19.159Z'
     - gatsby > relay-compiler > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
   SNYK-JS-LODASH-450202:
     - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
         reason: None given
@@ -1606,3 +1606,6 @@ patch:
         patched: '2019-07-31T18:47:17.529Z'
     - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
         patched: '2019-07-31T18:47:17.529Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2019-12-11T21:35:20.566Z'
