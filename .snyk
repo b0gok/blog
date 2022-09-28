@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.25.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -13,15 +13,9 @@ ignore:
     - gatsby > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.140Z'
     - gatsby-source-filesystem > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
-        reason: None given
-        expires: '2019-08-30T18:50:19.149Z'
     - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
@@ -58,16 +52,22 @@ ignore:
     - gatsby-transformer-sharp > sharp > prebuild-install > tar-fs > chownr:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.140Z'
+    - gatsby > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2019-08-30T18:50:19.149Z'
   'npm:mem:20180117':
     - gatsby > gatsby-cli > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
-      gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
-        reason: None given
-        expires: '2019-08-30T18:50:19.159Z'
     - gatsby > relay-compiler > yargs > os-locale > mem:
         reason: None given
         expires: '2019-01-31T20:43:55.887Z'
+    - gatsby > @gatsbyjs/relay-compiler > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-08-30T18:50:19.159Z'
   SNYK-JS-LODASH-450202:
     - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
         reason: None given
@@ -1606,3 +1606,154 @@ patch:
         patched: '2019-07-31T18:47:17.529Z'
     - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
         patched: '2019-07-31T18:47:17.529Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2022-09-28T01:36:35.433Z'
+  SNYK-JS-LODASH-567746:
+    - typography > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @babel/core > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > css-loader > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > inquirer > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint-plugin-import > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-copy-linked-files > cheerio > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-responsive-iframe > cheerio > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-plugin-sharp > async > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-config > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > @babel/generator > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-regex > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-plugin-sharp > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-copy-linked-files > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-images > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-remark-responsive-iframe > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-telemetry > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-cli > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-cli > gatsby-telemetry > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > gatsby-plugin-page-creator > gatsby-page-utils > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-09-28T01:36:35.433Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2022-09-28T01:36:35.433Z'
